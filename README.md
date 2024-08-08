@@ -1,4 +1,4 @@
-# YouTubeGPT
+# Season of AI - Generative AI for .NET projects (create your YouTube GPT)
 
 This is a sample application which demonstrates how to use OpenAI models to create a Retrival Augmented Generation (RAG) application using YouTube videos as the data source.
 
