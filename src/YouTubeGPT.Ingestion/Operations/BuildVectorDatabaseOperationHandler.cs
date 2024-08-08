@@ -65,7 +65,7 @@ public class BuildVectorDatabaseOperationHandler(
 
             logger.LogInformation("Downloading transcript for '{Title}' ({Id})", playlistVideo.Title, playlistVideo.Id);
             var trackManifest = await yt.Videos.ClosedCaptions.GetManifestAsync(playlistVideo.Id);
-            var track = trackManifest.TryGetByLanguage("en");
+            var track = trackManifest.TryGetByLanguage("pt");
             if (track is null)
             {
                 logger.LogInformation("Video {Id} doesn't have an English transcript", playlistVideo.Id);
