@@ -9,7 +9,7 @@ The application is split into two parts, a data ingestion service and a web appl
 ## Prerequisites
 
 - .NET 8
-- .NEW Aspire 8
+- .NET Aspire 8
 - Access to Azure OpenAI Service or an OpenAI API key
   - Models required:
     - Default: `text-embedding-ada-3-small`
@@ -23,7 +23,7 @@ The application is split into two parts, a data ingestion service and a web appl
 1. Clone the repository
 
    ```bash
-   gh repo clone aaronpowell/YouTubeGPT
+   gh repo clone renatoromao/SeasonOfAI_GenAIforDotNet
    ```
 
 1. Configure access to the models (use the Azure OpenAI or OpenAI API key)
